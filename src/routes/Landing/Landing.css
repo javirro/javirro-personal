@@ -1,0 +1,12 @@
+@import url('/src/App.css');
+#landing {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+  background: var(--darkest-green);
+  padding-bottom: 30px;
+}

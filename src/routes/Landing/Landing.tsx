@@ -1,6 +1,6 @@
 import "./Landing.css"
 const Landing = () => {
-  return <section></section>
+  return <section id="landing"></section>
 };
 
 export default Landing;
