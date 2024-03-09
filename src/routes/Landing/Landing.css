@@ -1,12 +1,36 @@
-@import url('/src/App.css');
+@import url("/src/App.css");
 #landing {
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  gap: 60px;
   position: relative;
   min-height: 100vh;
-  background: var(--darkest-green);
+  background: var(--dark);
   padding-bottom: 30px;
+}
+
+#landing header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+  font-family: var(--font-family);
+}
+
+#landing header h1 {
+  font-size: 4em;
+  background: linear-gradient(180deg, var(--green) 36.98%, var(--dark-green) 94.79%);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+}
+
+#landing header strong {
+  font-size: 2.2em;
+  margin-top: 0;
+  color: white;
 }

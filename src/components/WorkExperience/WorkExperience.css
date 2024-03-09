@@ -1,0 +1,22 @@
+@import url("/src/App.css");
+#work-exp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: 20px;
+}
+
+#work-exp h2 {
+  font-size: 3em;
+  color: var(--green);
+  margin: 0;
+}
+
+#work-exp .work-items-comtainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  gap: 20px;
+}

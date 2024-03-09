@@ -5,7 +5,6 @@ import espMessages from "./locales/esp.json"
 import { useSelector } from "react-redux"
 import { IntlProvider } from "react-intl"
 import Landing from "./routes/Landing/Landing"
-import WorkExperience from "./routes/WorkExperience/WorkExperience"
 
 import "./App.css"
 
@@ -17,7 +16,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Landing />} />
-            <Route path="/work-experience" element={<WorkExperience />} />
+            <Route path="*" element={<Landing />} />
           </Routes>
         </BrowserRouter>
       </div>
