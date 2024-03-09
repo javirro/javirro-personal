@@ -2,13 +2,13 @@
   {
     "company": "Glue Digital",
     "title": "Full stack and blockchain developer",
-    "description": "Working in DEFI (Decentralized finance startup) as full stack developer",
+    "description": "Working in DEFI (Decentralized finance) startup as full stack developer",
     "startDate": "February 2022",
     "endDate": "Current",
     "fullTime": true,
     "rol": [
+      "Working in DEFI (Decentralized finance) startup as full stack developer",
       "Coordinate front-end, back-end and blockchain development with the team and the CTO",
-      "Working in front-end and back-end depending on the proyect requirements",
       "Analyse product owner requirements to build the new features"
     ]
   },
@@ -20,7 +20,7 @@
     "endDate": "April 2023",
     "fullTime": false,
     "rol": [
-      "Lead a team of the 3 people to develop a blockchain proyect",
+      "Lead a team of the 3 people to develop  R&D proyects  which includes blochchain in web applications",
       "Making technical decisions about the proyects",
       "Deal with clients to understand proyect requirements.",
       "Writing technical documentation for the proyects."
