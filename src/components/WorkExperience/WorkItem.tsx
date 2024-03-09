@@ -1,7 +1,8 @@
 import { useState } from "react"
 import { WorkExperienceData } from "../../types"
-import "./WorkItem.css"
 import { imgs } from "../../images"
+import "./WorkItem.css"
+
 interface WorkItemProps {
   experience: WorkExperienceData
 }
@@ -12,7 +13,7 @@ const WorkItem = ({ experience }: WorkItemProps) => {
   return (
     <article className="work-item">
       <span className="full-time">{fullTime ? "Full-time" : "Partial-time"}</span>
-      <div onClick={() => setShowInfo((s: boolean) => !s)}>
+      <div className="title-container" onClick={() => setShowInfo((s: boolean) => !s)}>
         <img src={imgs.downArray} alt="down arrow" className={`down-arrow ${showInfo ? "rotate" : ""}`} />
         <strong>{company}:</strong>
         <strong>{title} </strong>
@@ -21,7 +22,7 @@ const WorkItem = ({ experience }: WorkItemProps) => {
         </span>
       </div>
       {showInfo && (
-        <div>
+        <div className="extra-info">
           <ul>
             {rol.map((r, i) => (
               <li key={i}>{r}</li>
