@@ -30,7 +30,7 @@
     "company": "Cetim",
     "title": "Full stack and blockchain developer",
     "description": "Working in R&D proyects which includes blochchain in web applications",
-    "startDate": "Septermber 2021",
+    "startDate": "September 2021",
     "endDate": "February 2022",
     "fullTime": true,
     "rol": [
@@ -38,6 +38,25 @@
       "I was the unique developer in the team, so I was in charge of the full stack development.",
       "Deal with clients to understand proyect requirements.",
       "Writing technical documentation for the proyects."
+    ]
+  },
+  {
+    "company": "OpenWebinars",
+    "title": "Blockchain online courses professor",
+    "startDate": "September 2021",
+    "endDate": "October 2021",
+    "fullTime": false,
+    "rol": ["Teaching online courses about blockchain technology", "Creating the course content.", "The courses topic where related to Ethereum and smart contracts programming."]
+  },
+  {
+    "company": "University of Oviedo",
+    "title": "Professor",
+    "startDate": "October 2019",
+    "endDate": "August 2021",
+    "fullTime": true,
+    "rol": [
+      "Teaching in the Degrees of Computer Science Engineering and Telecommunications Engineering.",
+      "Giving lectures in English and Spanish (bilingual degrees)."
     ]
   }
 ]
