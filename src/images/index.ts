@@ -9,6 +9,9 @@ import solidity from "./solidity.svg"
 import typescript from "./typescript.svg"
 import css from "./css.svg"
 import azure from "./azure.svg"
+import docker from "./docker.svg"
+import sass from "./sass.svg"
+import dokku from "./dokku.svg"
 
 export const imgs = {
   downArray,
@@ -22,4 +25,7 @@ export const imgs = {
   typescript,
   css,
   azure,
+  docker,
+  sass,
+  dokku
 }
