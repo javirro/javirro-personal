@@ -5,8 +5,9 @@ import espMessages from "./locales/esp.json"
 import { useSelector } from "react-redux"
 import { IntlProvider } from "react-intl"
 import Landing from "./routes/Landing/Landing"
-
+import Navbar from "./routes/Navbar/Navbar"
 import "./App.css"
+
 
 function App() {
   const language = useSelector((s: any) => s.language)
@@ -14,6 +15,7 @@ function App() {
     <IntlProvider locale={language === "en" ? "en" : "esp"} messages={language === "en" ? enMessages : espMessages}>
       <div className="App">
         <BrowserRouter>
+        <Navbar />
           <Routes>
             <Route path="/" element={<Landing />} />
             <Route path="*" element={<Landing />} />
