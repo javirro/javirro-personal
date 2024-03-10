@@ -1,0 +1,21 @@
+#personal-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: 20px;
+}
+
+#personal-projects h2 {
+  font-size: 3em;
+  color: var(--green);
+  margin-bottom: 20px;
+}
+
+#personal-projects section {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  gap: 30px 30px;
+
+}

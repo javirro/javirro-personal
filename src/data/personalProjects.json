@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Boosthub",
+    "description": "Platform to offer blockchain courses and  mentoring services related to development",
+    "url": "https://0xboosthub.com",
+    "github": ""
+  },
+  {
+    "title": "Fast ticket",
+    "description": "Application to share the ticket of a restaurant/bar easily between several people",
+    "url": "https://foodie-easypay.store",
+    "github": ""
+  },
+  {
+    "title": "Food ranking",
+    "description": "Application to rank food depending on my personal criteria.",
+    "url": "https://food-ranking.netlify.app",
+    "github": ""
+  }
+]
