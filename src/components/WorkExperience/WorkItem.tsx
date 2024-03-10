@@ -2,6 +2,7 @@ import { useState } from "react"
 import { WorkExperienceData } from "../../types"
 import { imgs } from "../../images"
 import "./WorkItem.css"
+import TechStack from "./TechStack"
 
 interface WorkItemProps {
   experience: WorkExperienceData
@@ -28,7 +29,7 @@ const WorkItem = ({ experience }: WorkItemProps) => {
               <li key={i}>{r}</li>
             ))}
           </ul>
-          <p>{techStack}</p>
+        {techStack && <TechStack techStack={techStack} />}
         </div>
       )}
     </article>

@@ -11,7 +11,7 @@
       "Coordinate front-end, back-end and blockchain development with the team and the CTO.",
       "Analyse product owner requirements and market narratives to build the new features."
     ],
-    "techStack": ["React", "Node.js", "Typescript", "Sass", "Solidity", "Postgres", "Gitlab", "Docker", "Dokku"]
+    "techStack": ["React", "Node", "Typescript", "Sass", "Solidity", "Postgres", "Gitlab", "Docker", "Dokku"]
   },
   {
     "company": "Cetim",
@@ -26,7 +26,7 @@
       "Deal with clients to understand proyect requirements.",
       "Writing technical documentation for the proyects."
     ],
-    "techStack": ["React", "Node.js", "Typescript", "CSS", "Solidity", "Github", "Azure", "Postgres"]
+    "techStack": ["React", "Node", "Typescript", "CSS", "Solidity", "Github", "Azure", "Postgres"]
   },
   {
     "company": "Cetim",
@@ -41,7 +41,7 @@
       "Deal with clients to understand proyect requirements.",
       "Writing technical documentation for the proyects."
     ],
-    "techStack": ["React", "Node.js", "Typescript", "CSS", "Boostrap", "Solidity", "Github", "Azure", "Postgres"]
+    "techStack": ["React", "Node", "Typescript", "CSS", "Solidity", "Github", "Azure", "Postgres"]
   },
   {
     "company": "OpenWebinars",

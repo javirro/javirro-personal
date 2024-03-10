@@ -46,7 +46,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
+  width: 100%;
+  gap: 35px;
   animation: moveDown 0.5s ease-in-out;
 }
 .work-item ul {
