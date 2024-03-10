@@ -11,7 +11,7 @@ const WorkItem = ({ experience }: WorkItemProps) => {
   const [showInfo, setShowInfo] = useState<boolean>(false)
 
   return (
-    <article className="work-item">
+    <article className={showInfo ? "work-item opened" : "work-item"}>
       <span className="full-time">{fullTime ? "Full-time" : "Partial-time"}</span>
       <div className="title-container" onClick={() => setShowInfo((s: boolean) => !s)}>
         <img src={imgs.downArray} alt="down arrow" className={`down-arrow ${showInfo ? "rotate" : ""}`} />

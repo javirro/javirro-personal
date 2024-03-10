@@ -10,7 +10,7 @@
 #work-exp h2 {
   font-size: 3em;
   color: var(--green);
-  margin: 0;
+  margin-bottom: 20px;
 }
 
 #work-exp .work-items-comtainer {

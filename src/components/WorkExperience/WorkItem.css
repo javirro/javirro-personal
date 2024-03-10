@@ -10,7 +10,10 @@
   border-radius: 10px;
   background: rgba(0, 0, 0, 0.2);
   position: relative;
-  box-shadow: 0 0  2px 3px rgba(98, 243, 105, 0.5);
+
+  &.opened {
+    box-shadow: 0 0  4px 5px rgba(98, 243, 105, 0.5);
+  }
 }
 
 .work-item > div {
