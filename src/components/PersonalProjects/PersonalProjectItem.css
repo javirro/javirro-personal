@@ -1,0 +1,48 @@
+.project-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: box-shadow 0.5s linear;
+}
+
+.project-container:hover {
+  box-shadow: 0 0 10px 3px var(--light-green);
+}
+
+.project-container h3 {
+  font-size: 1.8em;
+  color: var(--light-green);
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+
+}
+
+.project-container p {
+  color: white;
+  text-align: left;
+}
+
+.project-container .stack-tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.tag {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}

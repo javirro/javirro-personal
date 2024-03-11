@@ -1,4 +1,5 @@
 import personalProjects from "../../data/personalProjects.json"
+import PersonalProjectItem, { PersonalProject } from "./PersonalProjectItem"
 import "./PersonalProjects.css"
 
 const PersonalProjects = () => {
@@ -6,11 +7,8 @@ const PersonalProjects = () => {
     <div id="personal-projects">
       <h2>Personal Projects</h2>
       <section>
-        {personalProjects.map((project, i) => (
-          <div key={i}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-          </div>
+        {personalProjects.map((project: PersonalProject, i) => (
+          <PersonalProjectItem key={i} project={project} />
         ))}
       </section>
     </div>

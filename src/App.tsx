@@ -7,6 +7,7 @@ import { IntlProvider } from "react-intl"
 import Landing from "./routes/Landing/Landing"
 import Navbar from "./routes/Navbar/Navbar"
 import "./App.css"
+import Projects from "./routes/Projects/Projects"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Navbar />
           <Routes>
             <Route path="/" element={<Landing />} />
+            <Route path="/projects/:name" element={<Projects />} />
             <Route path="*" element={<Landing />} />
           </Routes>
         </BrowserRouter>
