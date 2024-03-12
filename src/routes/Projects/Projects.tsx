@@ -1,7 +1,10 @@
+import { useParams } from "react-router-dom"
+
 const Projects = () => {
-return(
-  <div></div>
-)
+  const { name } = useParams<{ name: string }>()
+  return <div className="project-main">
+     
+  </div>
 }
 
 export default Projects

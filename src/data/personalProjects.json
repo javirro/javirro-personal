@@ -4,20 +4,40 @@
     "description": "Platform to offer blockchain courses and  mentoring services related to development",
     "url": "https://0xboosthub.com",
     "github": "",
-    "stack": ["React", "Node.js", "CSS", "Typescript", "Postgres", "Ethers.js", "Docker", "Dokku", "CloudFare"]
+    "stack": ["React", "Node.js", "CSS", "Typescript", "Postgres", "Ethers.js", "Docker", "Dokku", "CloudFare"],
+    "long-description": {
+      "front-end": "This project has been fully developed using React with Javascript. Application is fully responsive.",
+      "back-end": "The back-end has been developed using Node.js with Typescript. ",
+      "database": "The database used is Postgres. For local development, I used Docker to run the database and the back-end. For deployment, I used a Dokku app to create the database.",
+      "deployment": "The application is deployed in a personal VPS with Ubuntu distribution. I used Dokku as orchestration tool and CloudFare as CDN. The domain is managed by CloudFare.",
+      "blockchain": "The application uses Ethers.js to interact with the Arbitrum blockchain. The application permits minting a  NFT certifacte in the blockchain when a course is finished."
+    }
+
   },
   {
     "title": "Fast ticket",
     "description": "Application to share the ticket of a restaurant/bar easily between several people",
     "url": "https://foodie-easypay.store",
     "github": "",
-    "stack": ["React", "Python", "CSS", "Typescript", "Postgres",  "Dokku", "CloudFare"]
+    "stack": ["React", "Python", "CSS", "Typescript", "Postgres",  "Dokku", "CloudFare"],
+    "long-description": {
+      "front-end": "This project has been developed using React with Typescript. Application is designed to be used in a mobile phone.",
+      "back-end": "The back-end has been developed using Python, specifically Fast-API. The backed used an API for an enterprise called Mindee which performs an OCR to the restaurant receipts.",
+      "database": "The database used is Postgres. I used a Dokku app to create the database.",
+      "deployment": "The application is deployed in a personal VPS with Ubuntu distribution. I used Dokku as orchestration tool and CloudFare as CDN. The domain is managed by CloudFare."
+    }
   },
   {
     "title": "Food ranking",
     "description": "Application to rank food depending on my personal criteria.",
     "url": "https://food-ranking.netlify.app",
     "github": "",
-    "stack": ["React", "Node", "CSS", "Typescript", "Postgres",  "Microsoft Azure", "Serverless functions"]
+    "stack": ["React", "Node", "CSS", "Typescript", "Postgres",  "Microsoft Azure", "Serverless functions"],
+    "long-description": {
+      "front-end": "This project has been developed using React with Typescript. The application is fully responsive.",
+      "back-end": "The back-end has been developed using Node.js with Typescript. It is deployed using serverless functions provided by Microsoft Azure.",
+      "database": "The database used is Postgres. I used an external provider to get Postgres database services.",
+      "deployment": "The front-end is deployed in Netlify platform and the backed in the serverless services provided by Microsoft Azure."
+    }
   }
 ]
