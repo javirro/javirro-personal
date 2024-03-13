@@ -4,9 +4,30 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  gap: 80px;
+  gap: 30px;
   position: relative;
   min-height: 100vh;
+  width: 100%;
   background: var(--dark);
   padding-bottom: 100px;
+  padding: 40px 80px;
+  box-sizing: border-box;
+}
+
+.project-main h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  background: linear-gradient(180deg, var(--green) 36.98%, var(--very-dark-green) 93.79%);
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0;
+}
+
+.project-main p {
+  text-align: center;
+  width: 60%;
+  color: rgb(197, 197, 197);
+  font-size: 1.1em;
 }
