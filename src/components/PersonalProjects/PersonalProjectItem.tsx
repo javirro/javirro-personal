@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./PersonalProjectItem.css"
 
 export interface PersonalProject {
@@ -9,8 +10,9 @@ export interface PersonalProject {
 }
 
 const PersonalProjectItem = ({ project }: { project: PersonalProject }) => {
+  const route: string = project?.title.toLowerCase().replace(" ", "-")
   return (
-    <a href={project.url} target="blank_" rel="noreferrer">
+    <Link to={"/projects/" + route}>
       <div className="project-container">
         <h3>{project?.title}</h3>
         <p>{project?.description}</p>
@@ -22,7 +24,7 @@ const PersonalProjectItem = ({ project }: { project: PersonalProject }) => {
           ))}
         </div>
       </div>
-    </a>
+    </Link>
   )
 }
 

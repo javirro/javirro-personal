@@ -17,7 +17,7 @@
 .bento-grid {
   display: grid;
   grid-template-columns: 35% 60%;
-  gap: 5%;
+  gap: 2%;
   width: 100%;
   justify-content: center;
   align-items: start;
@@ -29,6 +29,10 @@
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
+}
+
+.bento-grid .left-grid p {
+  text-align: center;
 }
 
 .bento-grid .right-grid {
@@ -43,17 +47,21 @@
 
 .bento-grid .container {
   display: flex;
-  flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
   width: 100%;
-  gap: 20px;
+  gap: 30px;
   padding: 20px;
   background: var(--very-dark-green);
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease;
+
+  &.column {
+    flex-direction: column;
+    gap: 20px;
+  }
 
 }
 
@@ -83,7 +91,7 @@
 
 }
 .project-main p {
-  text-align: center;
+  text-align: left;
   color: rgb(197, 197, 197);
   font-size: 1.1em;
 }

@@ -23,6 +23,10 @@
 
 }
 
+ a {
+  text-decoration: none;
+}
+
 .project-container p {
   color: white;
   text-align: left;

@@ -14,5 +14,7 @@ export interface ProjectData {
   longDescription: any
   stack: string[]
   github: string
-  url: string
+  url: string,
+  isTeamWork: boolean
+  teamText: string
 }

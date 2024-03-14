@@ -12,7 +12,12 @@ import azure from "./azure.svg"
 import docker from "./docker.svg"
 import sass from "./sass.svg"
 import dokku from "./dokku.svg"
-
+import screen from "./screen.svg"
+import server from "./server.svg"
+import database from "./database.svg"
+import cloud from "./cloud.svg"
+import team from "./team.svg"
+import person from "./person.svg"
 
 export const imgs = {
   downArray,
@@ -28,5 +33,11 @@ export const imgs = {
   azure,
   docker,
   sass,
-  dokku
+  dokku,
+  screen,
+  server,
+  database,
+  cloud,
+  team,
+  person
 }
