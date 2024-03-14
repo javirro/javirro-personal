@@ -18,6 +18,8 @@ import database from "./database.svg"
 import cloud from "./cloud.svg"
 import team from "./team.svg"
 import person from "./person.svg"
+import darkGithub from "./darkGithub.svg"
+import link from "./link.svg"
 
 export const imgs = {
   downArray,
@@ -39,5 +41,7 @@ export const imgs = {
   database,
   cloud,
   team,
-  person
+  person,
+  darkGithub,
+  link
 }

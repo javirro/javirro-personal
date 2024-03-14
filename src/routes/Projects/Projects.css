@@ -21,14 +21,17 @@
   width: 100%;
   justify-content: center;
   align-items: start;
+  height: 100%;
 }
 
 .bento-grid .left-grid {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 20px;
+  flex: 1;
+  height: 100%;
 }
 
 .bento-grid .left-grid p {
@@ -38,16 +41,15 @@
 .bento-grid .right-grid {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   width: 100%;
-
 }
 
 .bento-grid .container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   box-sizing: border-box;
   width: 100%;
@@ -63,6 +65,11 @@
     gap: 20px;
   }
 
+  &.reduced-space {
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .project-main .left-grid h3 {
@@ -77,7 +84,11 @@
   margin: 0;
 }
 
-.project-main	 .left-grid a {
+.project-main .left-grid a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
   text-decoration: none;
   color: var(--very-dark-green);
   font-weight: 700;
@@ -88,10 +99,25 @@
   border-radius: 6px;
   font-size: 1.2em;
   transition: all 0.3s ease;
-
 }
-.project-main p {
+
+.project-main .left-grid a:hover {
+  background-color: var(--light-green);
+}
+
+.project-main .left-grid a img {
+  width: 32px;
+  height: 32px;
+}
+.project-main .right-grid p {
   text-align: left;
+  color: rgb(197, 197, 197);
+  font-size: 1.1em;
+}
+
+.project-main .left-grid p {
+  margin-top: 5px;
+  text-align: center;
   color: rgb(197, 197, 197);
   font-size: 1.1em;
 }

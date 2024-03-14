@@ -18,12 +18,14 @@ const Projects = () => {
             <p>{description}</p>
             <a href={url} target="blank_" rel="noreferrer">
               Visit the project
+              <img src={imgs.link} alt="link" />
             </a>
             <a href={github} target="blank_" rel="noreferrer">
-              Access Github
+              <span>Access Github</span>
+              <img src={imgs.darkGithub} alt="github" />
             </a>
           </div>
-          <div className="container column">
+          <div className="container reduced-space">
             <img src={isTeamWork ? imgs.team : imgs.person} alt="People" />
             <p>{teamText}</p>
           </div>
