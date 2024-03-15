@@ -15,7 +15,7 @@ const WorkItem = ({ experience }: WorkItemProps) => {
     <article className={showInfo ? "work-item opened" : "work-item"}>
       <span className="full-time">{fullTime ? "Full-time" : "Partial-time"}</span>
       <div className="title-container" onClick={() => setShowInfo((s: boolean) => !s)}>
-        <img src={imgs.downArray} alt="down arrow" className={`down-arrow ${showInfo ? "rotate" : ""}`} />
+        <img src={imgs.downArray} alt="down arrow" className={`${showInfo ? "rotate" : ""}`} />
         <strong>{company}:</strong>
         <strong>{title} </strong>
         <span>
