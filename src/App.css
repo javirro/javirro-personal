@@ -20,6 +20,6 @@
   --mid-green: #148759;
   --green: #22a770;
   --light-green: #7bdaac;
-  --white-green: #eefbf4;
+  --white-green: #eefbf4; /* #rgba(238, 251, 244, 1) */
   --font-family: "Roboto", sans-serif;
 }

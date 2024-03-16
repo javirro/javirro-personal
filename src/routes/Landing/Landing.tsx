@@ -1,4 +1,5 @@
 import PersonalProjects from "../../components/PersonalProjects/PersonalProjects"
+import Studies from "../../components/Studies/Studies"
 import WorkExperience from "../../components/WorkExperience/WorkExperience"
 import "./Landing.css"
 const Landing = () => {
@@ -10,6 +11,7 @@ const Landing = () => {
       </header>
       <WorkExperience />
       <PersonalProjects />
+      <Studies />
     </section>
   )
 }

@@ -1,0 +1,62 @@
+@import url("/src/App.css");
+#studies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+#studies h2 {
+  font-size: 3em;
+  color: var(--green);
+  margin-bottom: 20px;
+}
+
+#studies ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+}
+
+#studies ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  width: 100%;
+  padding: 25px;
+  background: var(--dark);
+  border-radius: 12px;
+  box-shadow: 0 0 8px 0 var(--green);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+#studies ul li div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#studies ul li strong {
+  text-align: left;
+  font-size: 1.2em;
+  color: var(--white-green);
+  font-family: var(--font-family);
+  margin: 0;
+}
+
+#studies ul li span {
+  text-align: left;
+  font-size: 1em;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: var(--font-family);
+}

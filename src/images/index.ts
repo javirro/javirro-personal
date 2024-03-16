@@ -20,6 +20,10 @@ import team from "./team.svg"
 import person from "./person.svg"
 import darkGithub from "./darkGithub.svg"
 import link from "./link.svg"
+import calendar from "./calendar.svg"
+import master from "./master.svg"
+import degree from "./degree.svg"
+import security from "./security.svg"
 
 export const imgs = {
   downArray,
@@ -43,5 +47,9 @@ export const imgs = {
   team,
   person,
   darkGithub,
-  link
+  link,
+  calendar,
+  master,
+  degree,
+  security
 }
