@@ -1,12 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 .App {
   height: 100vh;
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: var(--dark);
 }
-
 
 :root {
   --dark: rgb(16, 17, 18);
@@ -18,5 +21,5 @@
   --green: #22a770;
   --light-green: #7bdaac;
   --white-green: #eefbf4;
-  --font-family: 'Roboto', sans-serif;
+  --font-family: "Roboto", sans-serif;
 }

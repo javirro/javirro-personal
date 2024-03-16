@@ -1,16 +1,14 @@
 .project-main {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   gap: 30px;
-  position: relative;
-  min-height: 100vh;
   width: 100%;
+  position: relative;
   background: var(--dark);
+  padding: 40px;
   padding-bottom: 100px;
-  padding: 40px 80px;
   box-sizing: border-box;
 }
 
@@ -22,12 +20,15 @@
   justify-content: center;
   align-items: start;
   height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px 10px;
+  border-radius: 12px;
 }
 
 .bento-grid .left-grid {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 20px;
   flex: 1;
@@ -39,16 +40,18 @@
 }
 
 .bento-grid .right-grid {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 20px;
-  width: 100%;
 }
 
 .bento-grid .container {
   display: flex;
+  flex: 1;
   justify-content: flex-start;
   align-items: center;
   box-sizing: border-box;
@@ -57,7 +60,7 @@
   padding: 20px;
   background: var(--very-dark-green);
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
   transition: all 0.3s ease;
 
   &.column {

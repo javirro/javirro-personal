@@ -6,9 +6,8 @@ import { useSelector } from "react-redux"
 import { IntlProvider } from "react-intl"
 import Landing from "./routes/Landing/Landing"
 import Navbar from "./routes/Navbar/Navbar"
-import "./App.css"
 import Projects from "./routes/Projects/Projects"
-
+import "./App.css"
 
 function App() {
   const language = useSelector((s: any) => s.language)

@@ -6,7 +6,7 @@
     "github": "",
     "stack": ["React", "Node.js", "CSS", "Typescript", "Postgres", "Ethers.js", "Docker", "Dokku", "CloudFare"],
     "isTeamWork": true,
-    "teamText": "It was developed in collaboration with a workmate who is an expert in blockchain development. I was in charge of the full front-end, almost all  the back-end and all of the infrastructure settings.",
+    "teamText": "It was developed in collaboration with an expert in blockchain. I was in charge of the full front-end, almost all  the back-end and all of the infrastructure settings.",
     "longDescription": {
       "frontend": "This project has been fully developed using React with Javascript. Application is fully responsive.",
       "backend": "The back-end has been developed using Node.js with Typescript. ",
@@ -22,7 +22,7 @@
     "url": "https://foodie-easypay.store",
     "github": "",
     "isTeamWork": true,
-    "teamText": "It was developed in collaboration with a workmate who is an expert in data science. I was in charge of the full front-end development, the CORS configuration in the backend and all of the infrastructure settings.",
+    "teamText": "It was developed in collaboration with  an expert in data science. I was in charge of the full front-end development, the CORS configuration in the backend and all of the infrastructure settings.",
     "stack": ["React", "Python", "CSS", "Typescript", "Postgres",  "Dokku", "CloudFare"],
     "longDescription": {
       "frontend": "This project has been developed using React with Typescript. Application is designed to be used in a mobile phone.",
