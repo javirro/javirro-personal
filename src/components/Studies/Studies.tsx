@@ -9,7 +9,7 @@ const Studies = () => {
           <img src={imgs.calendar} alt="calendar" />
           <div>
             <strong>Master in Project Management </strong>
-            <span> UNIR (International University of La Rioja)(2022)</span>
+            <span> UNIR (International University of La Rioja) (2022)</span>
           </div>
         </li>
         <li>
