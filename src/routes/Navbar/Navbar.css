@@ -7,13 +7,15 @@ nav {
 
 nav > div {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   width: 100%;
-  padding: 5px 20px;
+  padding: 5px 80px;
   box-sizing: border-box;
 }
-
+.space-around {
+  justify-content: space-around;
+}
 nav > div strong {
   font-size: 1.7em;
   color: white;
@@ -39,14 +41,14 @@ nav .link {
   gap: 5px;
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   border-radius: 5px;
-  border: 1px solid white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   padding: 5px 10px;
   transition: all 0.3s ease;
 }
 
 nav .link img {
-  width: 32px;
+  width: 28px;
   rotate: 90deg;
 }

@@ -6,9 +6,9 @@ const Navbar = () => {
   const isLanding = location.pathname === "/"
   return (
     <nav>
-      <div>
+      <div className={!isLanding ? "space-around" : ""}>
         {isLanding ? (
-          <strong>Javier Rodríguez</strong>
+          <></>
         ) : (
           <Link to="/" className="link">
             <img src={imgs.downArray} alt="Down array" />

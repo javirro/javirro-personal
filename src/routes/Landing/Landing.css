@@ -9,6 +9,7 @@
   min-height: 100vh;
   background: var(--dark);
   width: 85%;
+  padding-bottom: 100px;
 }
 
 #landing header {
@@ -28,6 +29,12 @@
   margin-bottom: 0;
 }
 
+#landing header h3 {
+  font-size: 2.5em;
+  color: var(--white-green);
+  margin: 0;
+}
+
 #landing header strong {
   font-size: 2.2em;
   margin-top: 0;
@@ -40,6 +47,4 @@
   margin: auto;
   color: rgb(197, 197, 197);
   font-size: 1.1em;
-
-
 }
