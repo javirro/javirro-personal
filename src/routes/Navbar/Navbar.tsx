@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom"
 import { imgs } from "../../images"
 import "./Navbar.css"
+
 const Navbar = () => {
   const location = useLocation()
   const isLanding = location.pathname === "/"
@@ -17,8 +18,12 @@ const Navbar = () => {
         )}
 
         <div className="images-container">
-          <img src={imgs.linkedin} alt="Linkedin" />
-          <img src={imgs.github} alt="Github" />
+          <a href="https" target="blank_" rel="noreferrer">
+            <img src={imgs.linkedin} alt="Linkedin" />
+          </a>
+          <a href="https" target="blank_" rel="noreferrer">
+            <img src={imgs.github} alt="Github" />
+          </a>
         </div>
       </div>
     </nav>

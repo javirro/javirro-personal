@@ -3,7 +3,7 @@ import "./Studies.css"
 const Studies = () => {
   return (
     <section id="studies">
-      <h2>Studies</h2>
+      <h2>Education</h2>
       <ul>
         <li>
           <img src={imgs.calendar} alt="calendar" />
