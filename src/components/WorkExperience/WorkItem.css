@@ -1,4 +1,4 @@
-@import url('/src/App.css');
+@import url("/src/App.css");
 .work-item {
   display: flex;
   flex-direction: column;
@@ -66,10 +66,21 @@
   }
 }
 
-
 @media (max-width: 700px) {
   .work-item {
     gap: 25px;
     padding: 10px;
+  }
+
+  .work-item .extra-info {
+    gap: 30px;
+  }
+  .work-item ul {
+    width: 90%;
+    padding-left: 0%;
+  }
+
+  .work-item ul li {
+    text-align: left;
   }
 }
