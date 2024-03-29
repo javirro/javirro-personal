@@ -1,5 +1,6 @@
 import { imgs } from "../../images"
 import { WorkExperienceData } from "../../types"
+import "./WorkItemHeader.css"
 
 interface WorkItemHeaderProps {
   experience: WorkExperienceData
@@ -10,7 +11,7 @@ interface WorkItemHeaderProps {
 export const WorkItemHeader = ({ experience, showInfo, setShowInfo }: WorkItemHeaderProps) => {
   const { company, title, startDate, endDate } = experience
   return (
-    <div className="title-container" onClick={() => setShowInfo((s: boolean) => !s)}>
+    <div onClick={() => setShowInfo((s: boolean) => !s)}>
       <img src={imgs.downArray} alt="down arrow" className={`${showInfo ? "rotate" : ""}`} />
       <strong>{company}:</strong>
       <strong>{title} </strong>
@@ -20,20 +21,17 @@ export const WorkItemHeader = ({ experience, showInfo, setShowInfo }: WorkItemHe
     </div>
   )
 }
-
 
 export const WorkItemHeaderMobile = ({ experience, showInfo, setShowInfo }: WorkItemHeaderProps) => {
   const { company, title, startDate, endDate } = experience
   return (
-    <div className="title-container" onClick={() => setShowInfo((s: boolean) => !s)}>
-      <img src={imgs.downArray} alt="down arrow" className={`${showInfo ? "rotate" : ""}`} />
-      <strong>{company}:</strong>
+    <div onClick={() => setShowInfo((s: boolean) => !s)}>
+      <div className="company">
+        <img src={imgs.downArray} alt="down arrow" className={`${showInfo ? "rotate" : ""}`} />
+        <strong>{company}</strong>
+      </div>
       <strong>{title} </strong>
-      <span>
-        ({startDate} - {endDate})
-      </span>
+      <span>({startDate} - {endDate})</span>
     </div>
   )
 }
-
-

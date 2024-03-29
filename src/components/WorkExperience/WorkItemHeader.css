@@ -1,0 +1,62 @@
+@import url('/src/App.css');
+
+.work-item > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+.work-item > div img {
+  width: 30px;
+  height: 30px;
+  transition: all 0.3s ease;
+}
+
+.rotate {
+  rotate: -90deg;
+}
+
+.work-item > div strong {
+  font-size: 1.5em;
+  color: var(--green);
+  margin: 0;
+  cursor: pointer;
+}
+
+.work-item > div span {
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--white-green);
+  margin-left: 10px;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .work-item > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .work-item .company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+  }
+  .work-item > div strong {
+    font-size: 1.3em;
+    width: 100%;
+    text-align: left;
+  }
+
+  .work-item > div strong::nth-child(2) {
+    text-align: center;
+  }
+}

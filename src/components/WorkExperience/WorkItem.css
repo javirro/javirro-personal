@@ -1,3 +1,4 @@
+@import url('/src/App.css');
 .work-item {
   display: flex;
   flex-direction: column;
@@ -15,37 +16,6 @@
   &.opened {
     box-shadow: 0 0 4px 5px rgba(98, 243, 105, 0.5);
   }
-}
-
-.work-item > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  cursor: pointer;
-}
-.work-item > div img {
-  width: 30px;
-  height: 30px;
-  transition: all 0.3s ease;
-}
-
-.rotate {
-  rotate: -90deg;
-}
-
-.work-item > div strong {
-  font-size: 1.5em;
-  color: var(--green);
-  margin: 0;
-  cursor: pointer;
-}
-
-.work-item > div span {
-  font-size: 1em;
-  font-weight: 400;
-  color: white;
-  margin-left: 10px;
 }
 
 .work-item .extra-info {
@@ -99,15 +69,7 @@
 
 @media (max-width: 700px) {
   .work-item {
-    gap: 15px;
+    gap: 25px;
     padding: 10px;
-  }
-
-  .work-item > div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    cursor: pointer;
   }
 }
