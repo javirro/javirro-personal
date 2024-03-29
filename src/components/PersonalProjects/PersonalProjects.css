@@ -1,3 +1,4 @@
+@import url('/src/App.css');
 #personal-projects {
   display: flex;
   flex-direction: column;
@@ -18,4 +19,24 @@
   grid-template-columns: repeat(2, minmax(300px, 1fr));
   gap: 50px 50px;
 
+}
+
+@media (max-width: 700px) {
+  #personal-projects {
+    gap: 20px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+  }
+  #personal-projects h2 {
+    font-size: 2.2em;
+  }
+  #personal-projects section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  
+  }
 }
