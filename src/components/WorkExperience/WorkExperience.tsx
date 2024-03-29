@@ -9,7 +9,7 @@ const WorkExperience = () => {
   return (
     <section id="work-exp">
       <h2>Work Experience</h2>
-      <section className="work-items-comtainer">
+      <section className="work-items-container">
         {workExperience.map((work: WorkExperienceData, i: number) => <WorkItem key={work.startDate} experience={work} />)}
       </section>
     </section>

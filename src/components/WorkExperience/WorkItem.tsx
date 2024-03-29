@@ -1,27 +1,24 @@
 import { useState } from "react"
 import { WorkExperienceData } from "../../types"
-import { imgs } from "../../images"
-import "./WorkItem.css"
 import TechStack from "./TechStack"
+import useScreenWidth from "../../hooks/useScreenWidth"
+import { WorkItemHeader } from "./WorkItemHeader"
+import "./WorkItem.css"
 
 interface WorkItemProps {
   experience: WorkExperienceData
 }
+
 const WorkItem = ({ experience }: WorkItemProps) => {
-  const { company, title, startDate, endDate, rol, techStack, fullTime } = experience
+  const MOBILE_SIZE: number = 700
+  const {  rol, techStack, fullTime } = experience
   const [showInfo, setShowInfo] = useState<boolean>(false)
+  const screenWidth = useScreenWidth()
 
   return (
     <article className={showInfo ? "work-item opened" : "work-item"}>
       <span className="full-time">{fullTime ? "Full-time" : "Partial-time"}</span>
-      <div className="title-container" onClick={() => setShowInfo((s: boolean) => !s)}>
-        <img src={imgs.downArray} alt="down arrow" className={`${showInfo ? "rotate" : ""}`} />
-        <strong>{company}:</strong>
-        <strong>{title} </strong>
-        <span>
-          ({startDate} - {endDate})
-        </span>
-      </div>
+      <WorkItemHeader experience={experience} setShowInfo={setShowInfo} showInfo={showInfo} />
       {showInfo && (
         <div className="extra-info">
           <ul>
@@ -29,7 +26,7 @@ const WorkItem = ({ experience }: WorkItemProps) => {
               <li key={i}>{r}</li>
             ))}
           </ul>
-        {techStack && <TechStack techStack={techStack} />}
+          {techStack && <TechStack techStack={techStack} />}
         </div>
       )}
     </article>
