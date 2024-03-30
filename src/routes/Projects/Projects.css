@@ -1,3 +1,5 @@
+@import url("/src/App.css");
+
 .project-main {
   display: flex;
   flex-direction: column;
@@ -23,30 +25,6 @@
   background-color: rgba(0, 0, 0, 0.3);
   padding: 20px 10px;
   border-radius: 12px;
-}
-
-.bento-grid .left-grid {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
-  flex: 1;
-  height: 100%;
-}
-
-.bento-grid .left-grid p {
-  text-align: center;
-}
-
-.bento-grid .right-grid {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 20px;
 }
 
 .bento-grid .container {
@@ -75,52 +53,20 @@
   }
 }
 
-.project-main .left-grid h3 {
-  width: 100%;
-  text-align: center;
-  font-size: 3.2em;
-  letter-spacing: 2px;
-  background: linear-gradient(180deg, var(--green) 36.98%, var(--light-green) 93.79%);
-  background-clip: content-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 0;
-}
-
-.project-main .left-grid a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  color: var(--very-dark-green);
-  font-weight: 700;
-  padding: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: var(--green);
-  border-radius: 6px;
-  font-size: 1.2em;
-  transition: all 0.3s ease;
-}
-
-.project-main .left-grid a:hover {
-  background-color: var(--light-green);
-}
-
-.project-main .left-grid a img {
-  width: 32px;
-  height: 32px;
-}
-.project-main .right-grid p {
-  text-align: left;
-  color: rgb(197, 197, 197);
-  font-size: 1.1em;
-}
-
-.project-main .left-grid p {
-  margin-top: 5px;
-  text-align: center;
-  color: rgb(197, 197, 197);
-  font-size: 1.1em;
+@media (max-width: 700px) {
+  .project-main {
+    padding: 10px;
+    gap: 10px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+  }
+  .bento-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+  }
 }
