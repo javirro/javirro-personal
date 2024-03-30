@@ -15,13 +15,13 @@
 
 #studies ul {
   width: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(300px, 1fr));
-  grid-template-rows: repeat(2, 1fr);
-  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px 3%;
   height: 100%;
   width: 100%;
-  place-items: center;
 }
 
 #studies ul li {
@@ -29,7 +29,7 @@
   align-items: center;
   justify-content: flex-start;
   gap: 25px;
-  width: 100%;
+  width: 47%;
   padding: 25px;
   background: var(--dark);
   border-radius: 12px;
@@ -59,4 +59,30 @@
   font-size: 1em;
   color: rgba(255, 255, 255, 0.8);
   font-family: var(--font-family);
+}
+
+@media (max-width: 700px) {
+  #studies {
+    padding: 0px 10px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  #studies h2 {
+    font-size: 2.2em;
+  }
+
+  #studies ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  #studies ul li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+    padding: 15px;
+  }
 }
