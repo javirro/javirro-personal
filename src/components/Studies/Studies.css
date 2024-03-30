@@ -49,7 +49,7 @@
 #studies ul li strong {
   text-align: left;
   font-size: 1.2em;
-  color: var(--white-green);
+  color: var(--light-green);
   font-family: var(--font-family);
   margin: 0;
 }
