@@ -18,10 +18,10 @@ const Navbar = () => {
         )}
 
         <div className="images-container">
-          <a href="https" target="blank_" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/javirrof/" target="blank_" rel="noreferrer">
             <img src={imgs.linkedin} alt="Linkedin" />
           </a>
-          <a href="https" target="blank_" rel="noreferrer">
+          <a href="https://github.com/javirro" target="blank_" rel="noreferrer">
             <img src={imgs.github} alt="Github" />
           </a>
         </div>
