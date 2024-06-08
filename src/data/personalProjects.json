@@ -32,16 +32,16 @@
     }
   },
   {
-    "title": "Simple swap",
-    "description": "Dapp to swap tokens in Binance Smart Chain through Pancakeswap router.",
-    "url": "https://simple-swap.netlify.app/",
-    "github": "https://github.com/javirro/swap",
+    "title": "Smart swapper",
+    "description": "Dapp to swap tokens in Binance Smart Chain through Paraswap aggregator. This permits select the best path for each route getting the best results.",
+    "url": "https://smart-swapper.netlify.app/",
+    "github": "https://github.com/javirro/paraswap",
     "isTeamWork": false,
-    "teamText": "This project was developed by myself. It is an example of how  to build a simple but useful Dapp.",
-    "stack": ["React", "CSS", "Typescript",  "Web3.js", "EIP6963"],
+    "teamText": "This project was developed by myself. It is an example of how  to build a simple but useful Dapp. At this moment it is only valid for Binance Smart chain but in the future it wwould  be multichain.",
+    "stack": ["React", "CSS", "Typescript",  "Web3.js", "EIP6963", "Paraswap API"],
     "longDescription": {
       "frontend": "This project has been developed using React with Typescript. To interact to blockchain network it used web3.js and the wallets  connection is based on EIP-6963 which permits detect several browser wallet at the same time. The application is fully responsive.",
-      "backend": "The dapp has not a backend. The front-end interacts directly with the Binance Smart Chain network.",
+      "backend": "The dapp has not a backend. The front-end interacts directly with Paraswap API to get the best route for the swap and send the generated swap data to the Paraswap smart contract.",
       "database": "This project does not have a database.",
       "deployment": "The front-end is deployed in Netlify platform."
     }
