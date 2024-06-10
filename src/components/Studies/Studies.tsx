@@ -16,7 +16,7 @@ const Studies = () => {
           <img src={imgs.master} alt="master" />
           <div>
             <strong>Master in Telecommunication Engineering </strong>
-            <span>University of Oviedo (2018-2022)</span>
+            <span>University of Oviedo (2018-2020)</span>
           </div>
         </li>
         <li>

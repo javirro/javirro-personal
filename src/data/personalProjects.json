@@ -12,7 +12,7 @@
       "backend": "The back-end has been developed using Node.js with Typescript. ",
       "database": "The database used is Postgres. For local development, I used a Postgres docker container. For production, I used a Dokku app to create the database.",
       "deployment": "The application is deployed in a personal VPS with Ubuntu distribution. I used Dokku as orchestration tool and CloudFare as CDN. The domain is managed by CloudFare.",
-      "blockchain": "The application uses Ethers.js to interact with the Arbitrum blockchain. The application permits minting a  NFT certifacte in the blockchain when a course is finished."
+      "blockchain": "The application uses Ethers.js to interact with the Arbitrum blockchain. The application allows minting a  NFT certifacte in the blockchain when a course is finished."
     }
 
   },
