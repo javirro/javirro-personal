@@ -17,16 +17,16 @@
 
   },
   {
-    "title": "Fast ticket",
+    "title": "Bilito",
     "description": "Application to share the ticket of a restaurant/bar easily between several people",
-    "url": "https://foodie-easypay.store",
+    "url": "https://bilito.fun",
     "github": "",
     "isTeamWork": true,
     "teamText": "It was developed in collaboration with  an expert in data science. I was in charge of the full front-end development, the CORS configuration in the backend and all of the infrastructure settings.",
     "stack": ["React", "Python", "CSS", "Typescript", "Postgres",  "Dokku", "CloudFare"],
     "longDescription": {
       "frontend": "This project has been developed using React with Typescript. Application is designed to be used in a mobile phone.",
-      "backend": "The back-end has been developed using Python, specifically Fast-API. The backed used an API for an enterprise called Mindee which performs an OCR to the restaurant receipts.",
+      "backend": "The back-end has been developed using Python, specifically Fast-API. To achieve the main funcionality, processing the receipt image, we used a combination of Open AI and Google API.",
       "database": "The database used is Postgres. I used a Dokku app to create the database.",
       "deployment": "The application is deployed in a personal VPS with Ubuntu distribution. I used Dokku as orchestration tool and CloudFare as CDN. The domain is managed by CloudFare."
     }
@@ -37,7 +37,7 @@
     "url": "https://smart-swapper.netlify.app/",
     "github": "https://github.com/javirro/paraswap",
     "isTeamWork": false,
-    "teamText": "This project was developed by myself. It is an example of how  to build a simple but useful Dapp. At this moment it is only valid for Binance Smart chain but in the future it wwould  be multichain.",
+    "teamText": "This project was developed by myself. It is an example of how  to build a simple but useful Dapp. At this moment it is only valid for Binance Smart chain but in the future it would  be multichain.",
     "stack": ["React", "CSS", "Typescript",  "Web3.js", "EIP6963", "Paraswap API"],
     "longDescription": {
       "frontend": "This project has been developed using React with Typescript. To interact to blockchain network it used web3.js and the wallets  connection is based on EIP-6963 which permits detect several browser wallet at the same time. The application is fully responsive.",

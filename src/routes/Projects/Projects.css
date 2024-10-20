@@ -12,8 +12,17 @@
   padding: 40px;
   padding-bottom: 100px;
   box-sizing: border-box;
+  animation: page-appear-from-left 0.8s ease;
 }
 
+@keyframes page-appear-from-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 .bento-grid {
   display: grid;
   grid-template-columns: 35% 60%;

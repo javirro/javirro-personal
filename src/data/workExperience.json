@@ -7,9 +7,9 @@
     "endDate": "Current",
     "fullTime": true,
     "rol": [
-      "Working in DEFI (Decentralized finance) startup from the beginning of the proyect.",
-      "Coordinate front-end, back-end and blockchain development with the team and the CTO.",
-      "Analyse product owner requirements and market narratives to build the new features."
+      "Working in company own product. Develop front-end or back-end depending on the project requirements in each moment. I lead and manage a team of 3 developers and I am used to work hand by hand with the CTO to deliver the best code quality we could.",
+      "Scrum methodology is used to organise project evolution. I am the main link between the devs team and product owner, design and marketing teams to provide and receive continuous feedback about product iterations, assuring time efficiency for all of us",
+      "Some of the hardest issues which I worked against were: Manage real-time communications through WebSocket, massive asynchronous request, responsive styles, manage global application state with Redux and reduce loading time for huge data amount"
     ],
     "techStack": ["React", "Node", "Typescript", "Sass", "Solidity", "Postgres", "Gitlab", "Docker", "Dokku"]
   },

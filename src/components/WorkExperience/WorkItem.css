@@ -38,8 +38,13 @@
 }
 
 .work-item ul li {
-  font-size: 1em;
-  color: white;
+  width: 80%;
+  text-align: left;
+  text-wrap: wrap;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: var(--white-green);
 }
 
 .work-item .full-time {
@@ -81,6 +86,7 @@
   }
 
   .work-item ul li {
-    text-align: left;
+    width: 100%;
+    text-align: center;
   }
 }
