@@ -31,3 +31,16 @@
     visibility: hidden;
   }
 }
+
+
+@media (max-width: 700px) {
+  .tech-stack {
+    gap: 8px;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+  }
+  .tech-stack .tech-icon {
+  width: 40px;
+  height: 40px;
+}
+}

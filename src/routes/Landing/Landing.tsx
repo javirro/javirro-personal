@@ -1,3 +1,4 @@
+import FavouriteStack from "../../components/FavouriteStack/FavouriteStack"
 import PersonalProjects from "../../components/PersonalProjects/PersonalProjects"
 import Studies from "../../components/Studies/Studies"
 import WorkExperience from "../../components/WorkExperience/WorkExperience"
@@ -14,6 +15,8 @@ const Landing = () => {
           learning along the way.{" "}
         </p>
       </header>
+
+      <FavouriteStack />
       <WorkExperience />
       <PersonalProjects />
       <Studies />
