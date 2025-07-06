@@ -13,10 +13,14 @@ const LeftGrid = ({ projectInfo }: { projectInfo: any }) => {
           <FormattedMessage id="visit-project" />
           <img src={imgs.link} alt="link" />
         </a>
-        <a href={github} target="blank_" rel="noreferrer">
-          <span><FormattedMessage id="access-github" /></span>
-          <img src={imgs.darkGithub} alt="github" />
-        </a>
+        {github && (
+          <a href={github} target="blank_" rel="noreferrer">
+            <span>
+              <FormattedMessage id="access-github" />
+            </span>
+            <img src={imgs.darkGithub} alt="github" />
+          </a>
+        )}
       </div>
       <div className="container reduced-space">
         <img src={isTeamWork ? imgs.team : imgs.person} alt="People" />
