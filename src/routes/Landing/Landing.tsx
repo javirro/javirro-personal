@@ -8,7 +8,7 @@ const Landing = () => {
       <header>
         <h1>Full Stack and Web3 Developer</h1>
         <h3>Javier Rodriguez</h3>
-        <p>+4 years experience. I love being full stack developer because it allows me build and deploy applications from scratch and solve all the issues found during the process.  </p>
+        <p>+4 years experience. I’m a full-stack developer with 4+ years of experience. I enjoy bringing ideas to life by building and deploying applications from scratch — solving problems and learning along the way.  </p>
       </header>
       <WorkExperience />
       <PersonalProjects />

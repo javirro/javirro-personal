@@ -12,3 +12,22 @@
   width: 75px;
   height: 60px;
 }
+
+.tech-stack .tech-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  .tech-name {
+    font-size: 0.9rem;
+    color: #dadada;
+    text-align: center;
+    transition: all 0.5s ease;
+  }
+  .tech-name.hide {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
