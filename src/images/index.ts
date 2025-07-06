@@ -24,6 +24,7 @@ import calendar from "./calendar.svg"
 import master from "./master.svg"
 import degree from "./degree.svg"
 import security from "./security.svg"
+import tailwind from "./tailwind.svg"
 
 export const imgs = {
   downArray,
@@ -51,5 +52,6 @@ export const imgs = {
   calendar,
   master,
   degree,
-  security
+  security,
+  tailwind
 }

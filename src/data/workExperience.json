@@ -1,15 +1,29 @@
 [
+    {
+    "company": "Metlabs",
+    "title": "Tech Lead",
+    "description": "Working in small services company leading a  6-7 members team",
+    "startDate": "February 2025",
+    "endDate": "Current",
+    "fullTime": true,
+    "rol": [
+      "Working as a Tech Lead in a team of 6–7 members. Responsible for team management, technical decision-making, implementing new features, and reviewing code from junior developers.",
+      "I serve as the main link between the development team, project manager, and clients to facilitate continuous feedback on product iterations, ensuring time efficiency and alignment across all parties.",
+      "Actively contribute to development, with a strong focus on backend logic and complex problem-solving, alongside team leadership duties."
+    ],
+    "techStack": ["React", "Node", "Typescript", "Tailwind", "Solidity", "Postgres", "Github", "Docker", "Dokku"]
+  },
   {
     "company": "Glue Digital",
     "title": "Full stack and web3 developer",
     "description": "Working in DEFI (Decentralized finance) startup as full stack developer",
     "startDate": "February 2022",
-    "endDate": "Current",
+    "endDate": "February 2025",
     "fullTime": true,
     "rol": [
-      "Working in company own product. Develop front-end or back-end depending on the project requirements in each moment. I lead and manage a team of 3 developers and I am used to work hand by hand with the CTO to deliver the best code quality we could.",
-      "Scrum methodology is used to organise project evolution. I am the main link between the devs team and product owner, design and marketing teams to provide and receive continuous feedback about product iterations, assuring time efficiency for all of us",
-      "Some of the hardest issues which I worked against were: Manage real-time communications through WebSocket, massive asynchronous request, responsive styles, manage global application state with Redux and reduce loading time for huge data amount"
+      "Developing the company’s core product, contributing to both frontend and backend as needed. Leading a team of 3 developers and working closely with the CTO to ensure code quality and alignment with product goals.",
+      "Using Scrum to manage project evolution. Serve as the main liaison between development, product, design, and marketing teams to ensure efficient feedback loops and time-effective delivery.",
+      "Tackled complex technical challenges such as real-time communication with WebSockets, large-scale async request handling, responsive design implementation, global state management with Redux, and performance optimization for large datasets."
     ],
     "techStack": ["React", "Node", "Typescript", "Sass", "Solidity", "Postgres", "Gitlab", "Docker", "Dokku"]
   },
